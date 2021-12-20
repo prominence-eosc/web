@@ -3,7 +3,7 @@ body {
   font-size: .875rem;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6,.display-4 {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -44,7 +44,7 @@ background: linear-gradient(to right, #4A569D, #DC2424); /* W3C, IE 10+/ Edge, F
 .feather-large{
   width: 48px;
   height: 48px;
-  color: #4444ff;
+  color: #ff9900;
 }
 
  .jumbotron {
