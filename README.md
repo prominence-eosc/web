@@ -1,2 +1,2 @@
 # PROMINENCE
-Source for the prominence.cloud site.
+Source for the https://prominence.cloud site.
