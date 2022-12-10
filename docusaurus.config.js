@@ -9,7 +9,7 @@ const config = {
   tagline: 'Run containerised jobs across many clouds without managing infrastructure',
   url: 'https://prominence.cloud',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
