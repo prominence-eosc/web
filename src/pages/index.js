@@ -56,10 +56,23 @@ function HomepageContent2() {
 function HomepageContent3() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero', styles.heroBanner1)}>
+    <header className={clsx('hero', styles.heroBanner3)}>
       <div className="container">
-        <h1 className="hblack">Improve resource utilisation</h1>
-<p className="hblacksmall">Run jobs on across multiple clouds opportunistically, utilising idle resources</p>
+        <h1 className="hwhite">Improve resource utilisation</h1>
+<p className="hwhitesmall">Run jobs on across multiple clouds opportunistically, utilising idle resources</p>
+      </div>
+    </header>
+  );
+}
+
+function HomepageContent4() {
+  const {siteConfig} = useDocusaurusContext();
+  return (
+    <header className={clsx('hero', styles.heroBanner2)}>
+      <div className="container">
+        <h1 className="hblack">No more login nodes</h1>
+<p className="hblacksmall">Access any computing resources, from anywhere</p>
+<img src={require('@site/static/img/overview.png').default} width="640px" />
       </div>
     </header>
   );
@@ -78,6 +91,7 @@ export default function Home() {
         <HomepageContent1 />
         <HomepageFeatures2 />
         <HomepageContent3 />
+        <HomepageContent4 />
       </main>
     </Layout>
   );
