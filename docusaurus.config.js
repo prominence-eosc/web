@@ -8,7 +8,7 @@ const config = {
   title: 'High throughput and high performance computing without servers or clusters',
   tagline: 'Run containerised jobs across many clouds without managing infrastructure',
   url: 'https://prominence.cloud',
-  baseUrl: '/web/',
+  baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
