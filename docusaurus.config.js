@@ -59,6 +59,11 @@ const config = {
             docId: 'introduction/introduction',
             position: 'left',
             label: 'Documentation',
+          },
+          {
+            href: 'https://eosc.prominence.cloud',
+            position: 'right',
+            label: 'Login'
           }
         ],
       },
@@ -71,6 +76,10 @@ const config = {
               { 
                 label: 'Access',
                 to: 'https://eosc.prominence.cloud',
+              },
+              {
+                label: 'Status',
+                to: 'https://stats.uptimerobot.com/3YN7Jfm2Kq',
               },
             ],
           },
