@@ -2,7 +2,13 @@
 sidebar_position: 10
 ---
 
-# Generating JSON
+# JSON
+
+Jobs in PROMINENCE are defined using JSON. It is possible to create JSON job descriptions and submit them directory to the REST API,
+or to use the CLI to submit them. This allows users to create jobs which are more complex than are possible using the CLI or to
+programmatically create jobs.
+
+## Generating JSON with the CLI
 
 When prominence create is run with the `--dry-run` option, the job will not be submitted but the JSON description of the job will be printed to standard output. For example:
 
@@ -34,7 +40,7 @@ $ prominence run <filename.json>
 The job description can also be a URL rather than a file, e.g.
 
 ```
-   $ prominence run <https://.../filename.json>
+$ prominence run <https://.../filename.json>
 ```
 
 ## Multiple tasks in a single job

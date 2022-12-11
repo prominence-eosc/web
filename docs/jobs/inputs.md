@@ -4,7 +4,7 @@ sidebar_position: 12
 
 # Inputs
 
-Most jobs of course require input files of some kind.
+Most jobs of course require input files of some kind, and it is of course possible to provide input files to jobs in PROMINENCE.
 
 ## Input files
 
