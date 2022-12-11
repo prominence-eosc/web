@@ -16,7 +16,7 @@ Individual people are not tracked. As a visitor to this website:
 
 ### As a user of the Prominence service
 
-Identification and behvourial data collected when accessing Prominence consists of:
+Identification and behavourial data collected when accessing Prominence consists of:
 
 * Pseudononymous EGI User ID,
 * IP address,
