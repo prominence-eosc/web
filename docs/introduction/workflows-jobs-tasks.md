@@ -22,5 +22,19 @@ A **job** in PROMINENCE consists of the following:
 * Environment variables
 * Current working directory
 
-A **workflow** consists of one or more jobs and optionally any dependencies between them. Jobs within a workflow can be executed sequentially, in parallel or combinations of both.
+A **workflow** consists of:
+
+* Name
+* Labels
+* One or more job definitions
+* Any dependencies between jobs
+* Factories to generate multiple jobs based on job templates
+* Policies (e.g. how many times should failing jobs should be retried)
+* Notifications (e.g. to specify email notification upon workflow completion)
+
+## Example
+
+An example workflow, including how it is made up of jobs and tasks, is shown below:
+
+![Tasks and jobs within a workflow](prominence-tasks-jobs-workflows.png)
 

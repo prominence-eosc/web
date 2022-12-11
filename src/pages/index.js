@@ -72,7 +72,7 @@ function HomepageContent4() {
       <div className="container">
         <h1 className="hblack">No more login nodes</h1>
 <p className="hblacksmall">Access any computing resources, from anywhere</p>
-<img src={require('@site/static/img/overview.png').default} width="720px" />
+<img src={require('@site/static/img/overview.png').default} width="780px" />
       </div>
     </header>
   );

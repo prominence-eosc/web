@@ -6,7 +6,7 @@ sidebar_position: 1
 
 PROMINENCE is a platform which allows users to exploit idle cloud resources for running containerised workloads. From a user's perspective PROMINENCE appears like a standard batch system but jobs can be run from anywhere in the world on clouds anywhere in the world.
 
-Example submitting a job and retrieving the standard output using the command line interface:
+The following example demonstrates how fast and easy it is to install and setup the command line interface then run a basic job:
 
 ```bash
  # Install the CLI
